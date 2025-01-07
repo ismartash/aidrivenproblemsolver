@@ -2,6 +2,9 @@
 
 This project is a **Math Problem Solver** built with **React** and **Vite**, powered by **Google Gemini AI**. The application allows users to either upload a photo of a math problem or capture it directly using their webcam. The app then analyzes the image using the **Gemini AI API**, providing a step-by-step solution and analysis.
 
+# live demo
+https://aidrivenproblemsolver.onrender.com
+
 ## Features
 
 - 📷 **Camera Integration**: Capture images directly using your webcam.
