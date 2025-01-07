@@ -26,12 +26,15 @@ Before you begin, ensure you have met the following requirements:
 - **npm** (Node Package Manager)
 - **Google Gemini AI API key**
 
-## Installation
+### Steps to Run the Application Locally:
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/ismartash/aidrivenproblemsolver.git
-cd reactaisolver
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/ismartash/aidrivenproblemsolver.git
+    cd aidrivenproblemsolver
+    ```
+
 2. **Install dependencies**:
 
     ```bash
@@ -49,5 +52,3 @@ cd reactaisolver
     ```bash
     npm run dev
     ```
-
-5. **Open your browser** and go to `http://localhost:5173` to use the app.
