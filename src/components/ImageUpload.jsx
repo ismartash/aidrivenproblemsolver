@@ -28,7 +28,7 @@ const ImageUpload = ({ onUpload }) => {
         onClick={() => fileInputRef.current.click()}
         className="bg-green-500 text-white px-4 py-2 rounded-lg flex items-center gap-2"
       >
-        <FaUpload /> Upload Image
+        <FaUpload /> upload Image
       </button>
     </div>
   );

@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
-import Webcam from 'react-webcam';
 import { FaCamera, FaSync } from 'react-icons/fa';
+import Webcam from 'react-webcam';
 
 const Camera = ({ onCapture, onBack }) => {
   const webcamRef = useRef(null);
@@ -34,13 +34,13 @@ const Camera = ({ onCapture, onBack }) => {
           onClick={toggleCamera}
           className="bg-gray-500 text-white px-4 py-2 rounded-lg flex items-center gap-2"
         >
-          <FaSync /> Switch Camera
+          <FaSync /> switch Camera
         </button>
         <button
           onClick={onBack}
           className="bg-red-500 text-white px-4 py-2 rounded-lg"
         >
-          Back
+          Back to home
         </button>
       </div>
     </div>
