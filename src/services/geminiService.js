@@ -38,11 +38,11 @@ export const analyzeMathProblem = async (imageData) => {
     if (error.message.includes('API key')) {
       throw new Error('API configuration error. Please check your API key.');
     } else if (error.message.includes('image data')) {
-      throw new Error('Invalid image provided. Please try again with a different image.');
+      throw new Error('invalid image provided. Please try again with a different image.');
     } else if (error.message.includes('PERMISSION_DENIED')) {
       throw new Error('API access denied. Please check your API key permissions.');
     } else {
-      throw new Error('Failed to analyze the math problem. Please try again.');
+      throw new Error('Failed to analyze the math problem. please try again.');
     }
   }
 };
